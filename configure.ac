@@ -1,2 +1,10 @@
 AC_INIT([compiler], [0.01])
+AC_PREREQ([2.69])
+AC_CONFIG_SRCDIR([lexer/wc.flex])
+AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_AUX_DIR([build-aux])
+AC_CONFIG_FILES([Makefile])
+AC_PROG_CC
+AC_PROG_LEX
+AC_PROG_YACC
 AC_OUTPUT

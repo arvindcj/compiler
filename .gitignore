@@ -14,5 +14,9 @@ hs_err_pid*
 # autotools
 autom4te.cache
 configure
+config.log
+config.status
+build-aux
+config.h.in
 
 lexer/*.c
