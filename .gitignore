@@ -14,9 +14,20 @@ hs_err_pid*
 # autotools
 autom4te.cache
 configure
-config.log
+*config.log*
 config.status
 build-aux
 config.h.in
+Makefile
+Makefile.in
+aclocal.m4
+compile
+config.h
+depcomp
+install-sh
+missing
+stamp-h1
+ylwrap
 
+# user files
 lexer/*.c
